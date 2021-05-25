@@ -1,0 +1,25 @@
+dt{
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+    width: 500px;
+}
+
+table{
+    margin-left: 35%
+}
+
+th{
+    color: white;
+    background-color: black;
+}
+
+td{
+    color: black;
+    background-color: white
+}
+
+h1{
+    text-align: center
+}
+

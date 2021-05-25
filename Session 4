@@ -1,0 +1,84 @@
+Session 4
+---------
+- React is component based.
+- A component comprises of template with presentation and logic.
+- A pre-defined, reusable combination of logic, style and presentation.
+- There are 2 types - 
+	Functional Component
+	Class Component
+
+- Component can be created in 2 ways:
+	Embedded: Everything in the Same File
+		Our Existing program is embedded technique.
+	Module: Separate files for logic, html and styles.
+
+Module Technique
+----------------
+- Create a src folder into the project
+- Create a file hello.js in src folder.
+
+hello.js
+--------
+ReactDOM.render(
+	<p>Welcome to ReactJS - External Element</p>,
+	document.getElementById('container')
+)
+
+index.html(in public folder)
+----------------------------
+- <script src="../src/hello.js">
+
+JSX Writing Rules
+-----------------
+- JSX can contain only a single non-container element. It cannot contain for example 
+
+ReactDOM.render(
+	<h1>Hi</h1>
+	<p>Hello</p>,
+	document.getElementById('container')
+)
+
+- To use more than one element in JSX,  we use container element first and all the elements should be inside the container element like below
+
+ReactDOM.render(
+	<div>
+		<h1>Hi</h1>
+		<p>Hello</p>
+	</div>,
+	document.getElementById('container')
+)
+Note: It is not recommended to use <div> as container element in JSX. Instead, we can use void element (<></>).
+
+ReactDOM.render(
+	<>
+		<h1>Hi</h1>
+		<p>Hello</p>
+	</>,
+	document.getElementById('container')
+)
+
+JSX Expressions
+---------------
+- JavaScript expressions can be written as follow
+		var name = 'Shashank';
+		`<p>Hello ${name}</p>`
+
+- JSX expression can be used by using {}.
+	var name = 'Shashank';
+	ReactDOM.render(
+	<div>
+		<h1>Hi {name}</h1>
+		<p>Hello</p>
+	</div>,
+	document.getElementById('container')
+)
+
+
+
+
+
+
+
+
+
+

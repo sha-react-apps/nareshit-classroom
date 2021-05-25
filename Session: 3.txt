@@ -1,0 +1,18 @@
+Session: 3
+==========
+JSX
+- Statically Typed, OOP
+- Compiles to standalone JS, hence can use all the features of JS.
+- Basically, JS cannot provide presentational logics, hence JSX comes into picture as it provides support combination of both logic and presentation.
+- It makes documentation more effective.
+- Makes JS more expressive and effective.
+
+MIME Type of ReactJS: text/babel, text/jsx
+
+Statically Typed Programming Language? Type is determined during compile time
+
+Create a JSX Program
+--------------------
+- Class with a Main method
+- Strongly typed language
+- Supports OOP features

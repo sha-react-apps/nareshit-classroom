@@ -1,0 +1,36 @@
+npmjs.com
+Libraries
+=========
+React Core
+----------
+1. reactjs( cdn link to include react js library in a particular page)
+    https://unpkg.com/react@17/umd/react.development.js
+2. Install by using npm: npm install react --save
+
+
+React Dom
+---------
+1. CDN Link: https://unpkg.com/react-dom@17/umd/react-dom.development.js
+2. Install by using npm: npm install react-dom --save
+
+Babel(compiler)
+---------------
+1. CDN Link: https://unpkg.com/@babel/standalone/babel.min.js
+2. Install by using npm: npm install babel-core --save-dev
+
+Web Pack
+--------
+- Module Bundler
+- Bundles all the dependency libraries in a interlinked way
+- Differencial Loading
+- Parcel is also a module Bundler
+
+React JS E2E App
+================
+1. compiler
+
+2. React Libraries
+
+3. Web Pack
+
+

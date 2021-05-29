@@ -1,2 +1,8 @@
 Session 5
 =========
+Rules of JSX(continued) 
+-----------------------
+- JSX supports binding the dynamic values only to properties of HTML elements.
+- We can't bind dynamic value to attributes of the HTML elements.
+	<table width="" height="">  --> height and width are attributes
+	

@@ -1,0 +1,60 @@
+Session 7
+=========
+
+
+- JSX allows to create elements and configure the properties dynamically.
+- Elements are created and added to virtual dom by using "React.createElement()".
+    Syntax:
+    React.createElement(
+        "elementName",
+        {
+            Property: Value,
+            Property: Value
+        },
+        "Default Content"
+    )
+
+- React supports nested element creation like this:
+    React.createElement(
+        "elementName",
+        {
+            Property: Value,
+            Property: Value
+        },
+        "Default Content",
+        React.createElement(
+        "elementName",
+        {
+            Property: Value,
+            Property: Value
+        },
+        "Default Content"
+    )
+    )
+
+Q: Diff bw "document.createElement()" and "React.createElement()"?
+A: document.createElement() adds element in Actual DOM, 
+    but React.createElement() adds element in VirtualDOM.
+
+
+- We can configure the VirtualDOM elements in a JSON structure. These are the following keys to be used 
+    in the JSON structure:
+        1. type -> string value
+        2. props -> object value
+
+
+
+                        React Component
+                        ---------------
+- Component is the combination of Logic, presentation and styles.
+- Logic is defined with JSX.
+- presentation is defined with HTML..
+- styles are defined with CSS.
+
+- React Component can be defined in 2 ways:
+    - By using JavaScript Function - Functional Component
+    - By using JavaScript class - Class Component
+
+
+- A Functional Component is JavaScript anonymous function ie, without a name.
+- It uses a reference name.

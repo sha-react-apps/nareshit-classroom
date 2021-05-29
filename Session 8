@@ -1,0 +1,35 @@
+Rules for configuring a custom component
+========================================
+- We cannot defined a custom component with predefined html elements names.
+    <header> //invalid
+
+-  Every component name must be either in PascalCase(First letter in every word in uppercase) or lowercase.
+- For actual DOM, we use lowercase and for Virtual DOM we use PascalCase.
+    PascalCase: HeaderComponent
+    lowercase: headercomponent
+
+
+Class Component in ReactJS
+--------------------------
+- It is a JS class which extends "React.component" base class.
+- Syntax:
+    class LoginComponent extends React.Component{}
+
+- JS class comprises of only the following members:
+    1. Properties: Data is stored
+    2. Method : Functionality
+    3. Accessors : setters and getters
+    4. Constructor
+- Component class can render VirtualDOM elements by using "render()" method.
+- "render()' method returns JSX.
+
+
+Q: Can we define a variable in class?
+A: NO.
+
+Q: Can we define a variable in class?
+A: NO.
+
+Functional Component VS Class Component
+---------------------------------------
+- Functional Component are "stateless" ie,  

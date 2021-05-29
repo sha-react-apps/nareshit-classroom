@@ -1,0 +1,17 @@
+JSX Syntax Rules
+----------------
+1. Empty Element
+2. Bind Expression
+3. Void Element must have an end tag like <img />
+4. Can bind values only to properties , not to attributes
+    <div class="cssClassName> //Invalid
+
+
+
+
+Render Complex Data
+-------------------
+- Arrays, JSON, Map, etc are considered as Complex Data.
+- map() method 
+- filter() method
+- 
